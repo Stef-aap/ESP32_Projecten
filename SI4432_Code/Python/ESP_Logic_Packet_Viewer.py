@@ -19,9 +19,8 @@ Initial Release
 import PySide2
 import sys
 sys.dont_write_bytecode = True  # prevent generation of PYC files
-
-import __init__
 from   SI4432_support  import *
+
 
 # *****************************************************************************
 # search for the correct CommPort

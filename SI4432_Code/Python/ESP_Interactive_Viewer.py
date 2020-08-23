@@ -14,8 +14,9 @@ Initial Release
 """]
 ]
 
-import __init__
 import PySide2
+import sys
+sys.dont_write_bytecode = True  # prevent generation of PYC files
 from   SI4432_support  import *
 
 # *****************************************************************************

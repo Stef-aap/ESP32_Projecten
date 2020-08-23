@@ -57,10 +57,6 @@ Initial Release
 import PySide2
 import sys
 sys.dont_write_bytecode = True  # prevent generation of PYC files
-
-#form past.utils import old_div
-
-import __init__
 from   SI4432_support  import *
 
 # *****************************************************************************
